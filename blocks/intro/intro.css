@@ -1,7 +1,10 @@
 .intro {
+    display: flex;
+    flex-direction: column;
     color: #fff;
-    max-width: 690px;
+    max-width: 984px;
     width: 100%;
     min-height: 429px;
-    padding-left: 140px;
+    padding: 0;
+    margin: 0 auto;
 }

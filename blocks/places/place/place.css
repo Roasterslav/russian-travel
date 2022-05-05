@@ -1,0 +1,9 @@
+.place {
+    color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.place:last-child {
+    padding-bottom: 92px;
+}
