@@ -1,0 +1,16 @@
+.cover__background-link {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    min-height: 740px;
+    min-width: 1184px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #2A2C2F;
+    opacity: .3;
+}
+
+
+.cover__background-link:hover {
+    opacity: .8;
+}

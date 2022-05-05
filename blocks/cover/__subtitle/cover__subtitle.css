@@ -7,4 +7,6 @@
     font-size: 18px;
     line-height: 122%;
     text-align: center;
+    position: relative;
+    z-index: 2;
 }
