@@ -1,9 +1,35 @@
 .place__title {
+    max-width: 460px;
+    max-height: 152px;
     font-weight: 900;
     font-size: 72px;
     line-height: 106%;
     margin: 0;
-    padding-top: 80px;
     padding-bottom: 48px;
+}
 
+@media (max-width: 1024px) {
+    .place__title {
+        max-width: 440px;
+        max-height: 152px;
+    }
+}
+
+@media (max-width: 768px) {
+    .place__title {
+        max-width: 340px;
+        max-height: 92px;
+        font-size: 42px;
+        line-height: 110%;
+    }
+}
+
+@media (max-width: 320px) {
+    .place__title {
+        max-width: 288px;
+        max-height: 35px;
+        font-size: 32px;
+        line-height: 109%;
+        padding-bottom: 32px;
+    }
 }

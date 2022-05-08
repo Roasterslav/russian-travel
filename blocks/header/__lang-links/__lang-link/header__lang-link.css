@@ -7,3 +7,16 @@
     line-height: 117%;
     text-align: right;
 }
+
+@media (max-width: 320px) {
+    .header__lang-link {
+        color: #FFF;
+        text-decoration: none;
+        margin: 0;
+        padding-left: 18px;
+        font-size: 18px;
+        line-height: 111%;
+        text-align: right;
+    }
+
+}

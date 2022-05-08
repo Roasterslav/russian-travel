@@ -1,4 +1,27 @@
 .place__main-text {
     display: flex;
     flex-direction: column;
+    max-width: 484px;
+    width: 100%;
+}
+
+@media (max-width: 1024px) {
+    .place__main-text {
+        max-width: 456px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .place__main-text {
+        max-width: 352px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 320px) {
+    .place__main-text {
+        max-width: 288px;
+        width: 100%;
+    }
 }

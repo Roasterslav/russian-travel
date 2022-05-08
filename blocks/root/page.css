@@ -4,3 +4,24 @@
     background-color: #2A2C2F;
     margin: 0 auto;
 }
+
+@media (max-width: 1024px) {
+    .page {
+        min-width: 1024px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .page {
+        min-width: 768px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 320px) {
+    .page {
+        min-width: 320px;
+        margin: 0 auto;
+    }
+}

@@ -2,3 +2,24 @@
     width: 284px;
     height: 213px;
 }
+
+@media (max-width: 1024px) {
+    .photo-grid__item {
+        width: 300px;
+        height: 225px;
+    }   
+}
+
+@media (max-width: 768px) {
+    .photo-grid__item {
+        width: 352px;
+        height: 264px;
+    }
+}
+
+@media (max-width: 320px) {
+    .photo-grid__item {
+        width: 288px;
+        height: 216px;
+    }
+}

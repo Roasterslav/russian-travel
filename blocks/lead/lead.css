@@ -4,3 +4,24 @@
   min-height: 1005px;
   margin: 0 auto;
 }
+
+@media (max-width: 1024px) {
+  .lead {
+    max-width: 928px;
+    min-height: 962px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead {
+    max-width: 768px;
+    min-height: 962px;
+  } 
+}
+
+@media (max-width: 320px) {
+  .lead {
+    max-width: 320px;
+    min-height: 406px;
+  }
+}

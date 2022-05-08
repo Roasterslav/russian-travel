@@ -2,8 +2,8 @@
     display: block;
     position: absolute;
     z-index: 1;
-    min-height: 740px;
     min-width: 1184px;
+    min-height: 740px;
     color: #fff;
     text-decoration: none;
     background-color: #2A2C2F;
@@ -13,4 +13,25 @@
 
 .cover__background-link:hover {
     opacity: .8;
+}
+
+@media (max-width: 1024px) {
+    .cover__background-link {
+        min-width: 1024px;
+        min-height: 640px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cover__background-link {
+        min-width: 768px;
+        min-height: 480px;
+    }
+}
+
+@media (max-width: 320px) {
+    .cover__background-link {
+        min-width: 320px;
+        min-height: 200px;
+    }
 }

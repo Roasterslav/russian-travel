@@ -3,5 +3,33 @@
     width: 100%;
     max-height: 671px;
     margin: 0 auto;
-    padding-bottom: 12px;
+    padding-bottom: 92px;
+}
+
+
+@media (max-width: 1024px) {
+    .photo-grid {
+        max-width: 928px;
+        width: 100%;
+        max-height: 942px;
+        padding-bottom: 92px;
+    } 
+}
+
+@media (max-width: 768px) {
+    .photo-grid {
+        max-width: 720px;
+        width: 100%;
+        max-height: 1664px;
+        padding-bottom: 88px;
+    } 
+}
+
+@media (max-width: 320px) {
+    .photo-grid {
+        max-width: 288px;
+        width: 100%;
+        max-height: 2724px;
+        padding-bottom: 64px;
+    }
 }

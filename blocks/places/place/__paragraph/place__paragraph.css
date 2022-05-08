@@ -1,6 +1,29 @@
 .place__paragraph {
+    width: 484px;
     font-weight: 400;
     font-size: 18px;
     line-height: 163%;
+    margin: 0;
+    padding-bottom: 26px;
+}
 
+@media (max-width: 1024px) {
+    .place__paragraph {
+        width: 456px;
+    }
+}
+
+@media (max-width: 768px) {
+    .place__paragraph {
+        width: 352px;
+        font-size: 16px;
+        padding-bottom: 25px;
+    }
+}
+
+@media (max-width: 320px) {
+    .place__paragraph {
+        width: 288px;
+        padding-bottom: 25px;
+    }
 }
