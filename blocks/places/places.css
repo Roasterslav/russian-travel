@@ -6,20 +6,20 @@
     margin: 0 auto;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
     .places {
         max-width: 928px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
     .places {
         max-width: 720px;
         gap: 73px;
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
     .places {
         max-width: 320px;
         gap: 50px;

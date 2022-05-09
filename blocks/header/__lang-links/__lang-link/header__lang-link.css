@@ -8,7 +8,7 @@
     text-align: right;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
     .header__lang-link {
         color: #FFF;
         text-decoration: none;

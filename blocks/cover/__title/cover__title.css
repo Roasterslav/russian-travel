@@ -10,7 +10,7 @@
     z-index: 2;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1279px) {
     .cover__title {
         max-width: 560px;
         min-height: 152px;
@@ -18,7 +18,7 @@
     } 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
     .cover__title {
         max-width: 560px;
         min-height: 152px;
@@ -26,7 +26,7 @@
     } 
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
     .cover__title {
         max-width: 288px;
         min-height: 70px;
