@@ -23,5 +23,7 @@
     .place__main-text {
         max-width: 288px;
         width: 100%;
+        margin: 0 auto;
+        padding-top: 32px;
     }
 }

@@ -5,4 +5,19 @@
     text-align: right; 
     padding: 0;
     margin: 0;
+    text-decoration: none;
+    color: #fff;
+}
+
+@media (max-width: 320px) {
+    .footer__copyright {
+        width: 186px;
+        height: 14px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 100%;
+        text-align: left; 
+        padding: 0;
+        margin: 0;
+    }
 }

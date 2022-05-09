@@ -33,4 +33,8 @@
         max-width: 320px;
         max-height: 1042px;
     }
+
+    .place:last-child {
+        padding-bottom: 66px;
+    }
 }
