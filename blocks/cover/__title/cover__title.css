@@ -12,7 +12,6 @@
 
 @media (max-width: 1279px) {
     .cover__title {
-        max-width: 560px;
         min-height: 152px;
         padding-top: 195px;
     } 
@@ -20,8 +19,6 @@
 
 @media (max-width: 1023px) {
     .cover__title {
-        max-width: 560px;
-        min-height: 152px;
         padding-top: 115px;
     } 
 }

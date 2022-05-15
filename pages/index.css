@@ -1,12 +1,15 @@
 @import url(./normalize.css);
 
-@import url(../blocks/root/page.css);
+@import url(../vendor/Inter/inter.css);
+
+@import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
     @import url(../blocks/header/__logo/header__logo.css);
     @import url(../blocks/header/__lang-links/header__lang-links.css);
-    @import url(../blocks/header/__lang-links/__lang-link/header__lang-link.css);
-        @import url(../blocks/header/__lang-links/__lang-link/_ru/header__lang-link_ru.css);
+    @import url(../blocks/header/__lang-link/header__lang-link.css);
+        @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
+    
 
 @import url(../blocks/lead/lead.css);
     @import url(../blocks/lead/__title/lead__title.css);
@@ -19,18 +22,19 @@
     @import url(../blocks/intro/__text/intro__text.css);
     @import url(../blocks/intro/__list/intro__list.css);
     @import url(../blocks/intro/__list-item/intro__list-item.css);
+    @import url(../blocks/intro/__list-number/intro__list-number.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
     @import url(../blocks/photo-grid/__items/photo-grid__items.css);
     @import url(../blocks/photo-grid/__item/photo-grid__item.css);
     
 @import url(../blocks/places/places.css);
-@import url(../blocks/places/place/place.css);
-    @import url(../blocks/places/place/__title/place__title.css);
-    @import url(../blocks/places/place/__image/place__image.css);
-    @import url(../blocks/places/place/__main-text/place__main-text.css);
-    @import url(../blocks/places/place/__paragraph/place__paragraph.css);
-    @import url(../blocks/places/place/__website/place__website.css);
+@import url(../blocks/place/place.css);
+    @import url(../blocks/place/__title/place__title.css);
+    @import url(../blocks/place/__image/place__image.css);
+    @import url(../blocks/place/__main-text/place__main-text.css);
+    @import url(../blocks/place/__paragraph/place__paragraph.css);
+    @import url(../blocks/place/__website/place__website.css);
 
 @import url(../blocks/website/website.css);
     @import url(../blocks/website/__link/website__link.css);
@@ -45,9 +49,3 @@
     @import url(../blocks/footer/__copyright/footer__copyright.css);
     @import url(../blocks/footer/__links/footer__links.css);
         @import url(../blocks/footer/__link/footer__link.css);
-
-@import url(../vendor/Inter/inter.css);
-    @import url(../vendor/Inter/Inter-Black.woff);
-    @import url(../vendor/Inter/Inter-Black.woff2);
-    @import url(../vendor/Inter/Inter-Regular.woff);
-    @import url(../vendor/Inter/Inter-Regular.woff2);

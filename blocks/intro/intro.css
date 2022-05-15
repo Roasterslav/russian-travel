@@ -12,8 +12,6 @@
 @media (max-width: 1023px) {
     .intro {
         max-width: 720px;
-        padding: 0;
-        margin: 0 auto;
     } 
 }
 
@@ -21,7 +19,5 @@
     .intro {
         max-width: 288px;
         min-height: 754px;
-        padding: 0;
-        margin: 0 auto;
     }
 }

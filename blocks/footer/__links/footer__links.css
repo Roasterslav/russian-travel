@@ -9,8 +9,6 @@
     .footer__links {
         flex-direction: column;
         row-gap: 32px;
-        list-style: none;
         padding-bottom: 48px;
-        margin: 0;
     }
 }

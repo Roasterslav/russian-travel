@@ -15,18 +15,9 @@
     }
 }
 
-@media (max-width: 1023px) {
-    .lead__title {
-        padding: 48px 0 0 0;
-    }
-}
-
 @media (max-width: 767px) {
     .lead__title {
         max-width: 288px;
-        font-weight: 900;
         font-size: 40px;
-        line-height: 104%;
-        padding: 48px 0 0 0;
     }
 }

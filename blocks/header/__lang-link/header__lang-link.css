@@ -10,13 +10,8 @@
 
 @media (max-width: 767px) {
     .header__lang-link {
-        color: #FFF;
-        text-decoration: none;
-        margin: 0;
-        padding-left: 18px;
         font-size: 18px;
         line-height: 111%;
-        text-align: right;
     }
 
 }

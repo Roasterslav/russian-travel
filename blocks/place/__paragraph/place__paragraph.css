@@ -28,6 +28,5 @@
 @media (max-width: 767px) {
     .place__paragraph {
         min-width: 288px;
-        padding-bottom: 25px;
     }
 }

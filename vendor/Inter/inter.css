@@ -15,3 +15,12 @@
   url("./Inter-Black.woff") format("woff"),
   url("./Inter-Black.woff2") format("woff2");
 }
+
+@font-face {
+  font-family: 'Inter';
+  font-weight: bold;
+  font-weight: 700;
+  src: local('Inter'),
+  url("./Inter-Bold.woff") format("woff"),
+  url("./Inter-Bold.woff2") format("woff2");
+}

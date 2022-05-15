@@ -9,11 +9,6 @@
 
 @media (max-width: 1023px) {
     .intro__title {
-        max-width: 690px;
-        font-weight: 900;
-        font-size: 54px;
-        line-height: 107%;
-        margin: 0;
         padding: 88px 0 40px 0;
     }
 }
@@ -22,9 +17,7 @@
     .intro__title {
         max-width: 288px;
         max-height: 70px;
-        font-weight: 900;
         font-size: 32px;
         line-height: 109%;
-
     }
 }

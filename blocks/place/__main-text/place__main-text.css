@@ -8,21 +8,18 @@
 @media (max-width: 1279px) {
     .place__main-text {
         max-width: 456px;
-        width: 100%;
     }
 }
 
 @media (max-width: 1023px) {
     .place__main-text {
         max-width: 352px;
-        width: 100%;
     }
 }
 
 @media (max-width: 767px) {
     .place__main-text {
         max-width: 288px;
-        width: 100%;
         margin: 0 auto;
         padding-top: 32px;
     }
