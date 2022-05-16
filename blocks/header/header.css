@@ -4,12 +4,13 @@
     min-height: 52px;
     margin: 0 auto;
     justify-content: space-between;
-    padding-top: 28px;
+    padding: 28px 0 56px 0;
 }
 
 @media (max-width: 1279px) {
     .header {
         max-width: 928px;
+        padding: 28px 0 48px 0;
     }
 }
 
@@ -24,6 +25,6 @@
         max-width: 288px;
         max-height: 42px;
         height: 100%;
-        padding-top: 16px;
+        padding: 16px 0 48px 0;
     }
 }
